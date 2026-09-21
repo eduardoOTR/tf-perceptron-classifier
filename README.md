@@ -25,20 +25,17 @@ u = w₀(-1) + w₁x₁ + w₂x₂ + w₃x₃
 
 and uses the linear activation function to generate `y`.
 
-## Training
+## Summary
 
-The model is trained using the Adam gradient-descent optimizer with a learning rate of `0.05`. The repository also features custom convergence callbacks to monitor training and identify when the model has converged.
-
-| Component | Configuration |
+| Parameter | Specification |
 | --- | --- |
 | Model | Single-layer Perceptron |
-| Inputs | Three physicochemical measurements |
-| Output | Linear neuron output `y` |
+| Inputs | `x₁`, `x₂`, `x₃` |
+| Output | `y` |
+| Net input | `u` |
 | Classes | `-1` (P1) and `1` (P2) |
-| Optimizer | Adam |
 | Learning rate | `0.05` |
+| Optimizer | Adam |
 | Framework | TensorFlow and Keras |
 
-## Development environment
-
-The project is designed to run in a Jupyter Notebook, including Google Colab, with TensorFlow 2.x or later and Keras.
+The repository also features custom convergence callbacks to monitor training and identify when the model has converged.
