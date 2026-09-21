@@ -31,8 +31,8 @@ and uses the linear activation function to generate `y`.
 | --- | --- |
 | Model | Single-layer Perceptron |
 | Inputs | `x₁`, `x₂`, `x₃` |
-| Output | `y` |
 | Net input | `u` |
+| Output | `y` | 
 | Classes | `-1` (P1) and `1` (P2) |
 | Learning rate | `0.05` |
 | Optimizer | Adam |
